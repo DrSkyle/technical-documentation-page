@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Documentation</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Java Documentation</header>
+      <a href="#Java-Introduction" class="nav-link">Java Introduction</a>
+      <a href="#Java-Install" class="nav-link">Java Install</a>
+      <a href="#Java-Syntax" class="nav-link">Java Syntax</a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Java-Introduction">
+        <header>Java Introduction</header>
+        <article>
+            <p>Java is a popular programming languageg, created in 1995.
+            It is owned by Oracle, and more than 3 billion devices run Java</p>
+            <p>It is used for: <ul><li>Mobil applications (specially Android apps)</li>
+                <li>Desktop applications</li>
+                <li>Web applications</li>
+                <li>Web servers and application servers</li>
+                <li>Games</li>
+                <li>Databases</li>
+                <li>And much, much more</li>
+            </ul>
+            </p>
+           
+        </article>
+      </section>
+
+      <section class="main-section" id="Java-Install">
+        <header>Java Install</header>
+        <article>
+            <p>Some PCs might have Java already installed , Java sure is in your PC if you play Minecraft </p>
+            
+            <p>To check if you have Java installed on a windows PC, search Java in start bar or type in following in command prompt
+                
+
+            </p>
+            <p><code>C:\Users/Your Name>java-version</code>></p>
+            <p>If Java is installed, you will see something like this (depending on the version):</p>
+            <p><code>java version "11.0.3" 2018-10-166 LTS</code>
+            <code>Java(TM) SE Runtime Environment 18.9 (build 11.0.1+13-LTS)</code>
+        <code> Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.1+13-LTS, mixed mode) </code>
+        </p>
+            
+            <p>If you do not have java installed on your computer , you can download it for free at <a href="https://www.oracle.com">oracle.com </a></p>
+            <p><b>Note:</b>If you are stuck try googling "How to install and setup Java in __Your Operating System_"</p>
+            <p>If by any chance you are still not able to install Java, try installing again :)</p>
+           
+           
+        </article>
+      </section>
+
+      <section class="main-section" id="Java-Syntax">
+        <header>Java-Syntax</header>
+        <article>
+            <code>
+                public class Main {
+                public static void main(String[] args) {
+                  System.out.println("Hello World");
+                }
+              }
+              </code>
+            <p> Every line of code that runs in Java must be inside a class. In our example, 
+                we named the class Main. A class should always start with an uppercase first letter.
+
+                Note: Java is case-sensitive: "MyClass" and "myclass" has different meaning.
+            </p>
+            <p> 
+                The name of the java file must match the class name. When saving the file, save 
+                it using the class name and 
+                add ".java" to the end of the filename. To run the example 
+                above on your computer, make sure that Java is properly installed: Go to the Get Started Chapter 
+                for how to install Java. The output should be:
+            </p>
+            <p>The<b>main()</b> method is required and you will see it in every Java program:
+            <code>
+                public static void main(String[] args)
+            </code>
+            Any code inside the main() method will be executed. You don't have to understand 
+            the keywords before and after main just yet.Nevertheless they are simple <code>public</code>
+            is called access modifier and is used to set scope of the class like a method with access modifier of protected can only be accessed within the same package  , static means the method is static , void means the return type is null
+            and main is the name of the method
+
+    For now, just remember that every Java program has a class name which must match the filename, and that every program must contain the main() method.
+            </p>
+                
+
+            
+        </article>
+      </section>
+    </main>
+
+  </body>
+</html>
